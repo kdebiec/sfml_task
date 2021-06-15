@@ -1,0 +1,128 @@
+{
+  "id": "windows",
+  "type": "Window",
+  "children": [
+    {
+      "id": "menuScreen",
+      "type": "Container",
+      "x": 0,
+      "y": 0,
+      "width": -1,
+      "height": -1,
+      "visibility": true,
+      "children": [
+        {
+          "id": "mask",
+          "type": "Image",
+          "anchor": "CENTER",
+          "x": 0,
+          "y": 0,
+          "width": -1,
+          "height": -1,
+          "color": "255, 255, 255, 128"
+        },
+        {
+          "id": "menuStack",
+          "type": "VerticalStack",
+          "anchor": "CENTER",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "spacing": 15,
+          "children": [
+            {
+              "id": "resumeButton",
+              "type": "Button",
+              "x": 0,
+              "y": 0,
+              "width": 292,
+              "height": 78,
+              "text": "Resume",
+              "image": "C:\\Other\\tex2.png",
+              "font": "C:\\Other\\Roboto-Regular.ttf"
+            },
+            {
+              "id": "settingsButton",
+              "type": "Button",
+              "x": 0,
+              "y": 0,
+              "width": 292,
+              "height": 78,
+              "text": "Settings",
+              "image": "C:\\Other\\tex2.png",
+              "font": "C:\\Other\\Roboto-Regular.ttf"
+            },
+            {
+              "id": "exitButton",
+              "type": "Button",
+              "x": 0,
+              "y": 0,
+              "width": 292,
+              "height": 78,
+              "text": "Exit",
+              "image": "C:\\Other\\tex2.png",
+              "font": "C:\\Other\\Roboto-Regular.ttf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hudScreen",
+      "type": "Container",
+      "x": 0,
+      "y": 0,
+      "width": -1,
+      "height": -1,
+      "visibility": true,
+      "children": [
+        {
+          "id": "itemsStack",
+          "type": "HorizontalStack",
+          "anchor": "BOTTOM_CENTER",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "spacing": 25,
+          "children": [
+            {
+              "id": "item1Button",
+              "type": "Button",
+              "x": 0,
+              "y": 0,
+              "width": 131,
+              "height": 131,
+              "text": "",
+              "image": "C:\\Other\\tex3.png",
+              "font": "C:\\Other\\Roboto-Regular.ttf"
+            },
+            {
+              "id": "item2Button",
+              "type": "Button",
+              "x": 0,
+              "y": 0,
+              "width": 131,
+              "height": 131,
+              "text": "",
+              "image": "C:\\Other\\tex4.png",
+              "font": "C:\\Other\\Roboto-Regular.ttf"
+            },
+            {
+              "id": "item3Button",
+              "type": "Button",
+              "x": 0,
+              "y": 0,
+              "width": 131,
+              "height": 131,
+              "text": "",
+              "image": "C:\\Other\\tex6.png",
+              "font": "C:\\Other\\Roboto-Regular.ttf"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
